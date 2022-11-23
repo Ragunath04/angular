@@ -1,0 +1,32 @@
+body{
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    margin-right: 20px;  
+    border: solid black;
+    padding: 5px;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    color: black;
+    /* border-bottom: 0; */ 
+}
+a:focus{
+    border:solid black;
+    background-color: black;
+    color: whitesmoke;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.time{
+    position: absolute;
+    right: 28px;
+    top: -5px;
+
+}
+

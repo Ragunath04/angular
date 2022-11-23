@@ -1,0 +1,10 @@
+<body>
+    <p class="date">DATE : {{ dt | date: 'dd-MMM-yyyy'}}</p>
+    <!-- <p class="date">TIME : {{now| date:'HH:mm:ss'}}</p> --> 
+    <h1 class="date">TEXT CONVERTER</h1>
+    <input type="text" [(ngModel)]="in"> 
+    <h3 class="date" *ngIf=" in!= '' ">UpperCase: {{in | uppercase}}</h3>
+    <h3 class="date"  *ngIf=" in!= '' " >LowerCase: {{in | lowercase}}</h3>
+    
+</body>
+

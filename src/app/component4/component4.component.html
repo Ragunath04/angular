@@ -1,0 +1,13 @@
+<body class="bodyy">
+    <div class="first">
+        <h1><label for="Alphabet">Alphabet</label></h1>
+        <select [(ngModel)]="selected" (click)="show()" id="Alphabet">
+            <option value="Apple">Apple</option>
+            <option value="Ball">Ball</option>
+            <option value="Cat">Cat</option>
+           </select>
+    </div>
+    <div *ngIf="selected.value!='' ">
+        <img src="{{src}}" >
+    </div>
+</body>

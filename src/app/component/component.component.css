@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;  
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 0px;
+    border: 3px solid whitesmoke;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.login{
+    display: block;
+}
+.one{
+    margin: 15px;
+    display: inline-block;
+}
+.two{
+    margin: 15px;
+}
+.two input{
+    margin-left: 90px;
+}

@@ -1,0 +1,17 @@
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    margin-top: 0;
+}
+.input{
+    width: 500px;
+}
+.date{
+    color: whitesmoke;
+}
